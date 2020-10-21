@@ -1,0 +1,67 @@
+#welcomeDiv {
+    float: center;
+    width: 100%;
+
+    border-color: black;
+    background-color: rgb(72, 150, 41);
+
+    border-style: solid;
+    border-width: 2px;
+
+    text-align: center;
+
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.addObjDiv {
+    border-color: black;
+    background-color: rgb(177, 173, 173);
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+
+    width: 48%;
+    height: 160px;
+
+    float: left;
+    margin-right: 1%;
+}
+.settingsTxt {
+    padding: 0px 0px 0px 20px;
+}
+.addClassDiv {
+    border-color: green;
+    background-color: lightgreen;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+
+    width: 25%;
+    height: 160px;
+
+    float: left;
+    margin-right: 1%;
+    
+}
+.newClass {
+    padding: 0px 0px 0px 20px;
+}
+.delClassDiv {
+    border-color: red;
+    background-color: lightcoral;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+
+    width: 24%;
+    height: 160px;
+
+    float: left;
+}
+.newDelClass {
+    padding: 0px 0px 0px 20px;
+}
