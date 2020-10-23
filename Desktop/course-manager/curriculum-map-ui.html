@@ -6,25 +6,28 @@
 </head>
 <body>    
     <div id="welcomeDiv">
-        <h4 id="welcomeTxt"> WILLY HAS A SMALL PENIS</h4>
+        <h2 id="welcomeTxt"></h2>
     </div>
 
     <div id="settings" class="addObjDiv">
         <h4 class="settingsTxt" id="addSemester">Add Semester:  <button id="addSemesterBtn" value="Add">ADD</button></h4>
-        <h4 class="settingsTxt" id="addClass">Add Class:  <input id="addSemesterInput" value=""></input><button id="addClassBtn" value="Add">ADD</button></h4>
+        <h4 class="settingsTxt" id="addClass">Add Class:  <input id="addClassInput" value=""></input><button id="addClassBtn" value="Add">ADD</button></h4>
         <h4 class="settingsTxt" id="delSemester">Delete Last semester:  <button id="delSemesterBtn" value="Add">DELETE</button></h4>
 
     </div>
 
     <div id="class" class="addClassDiv">
-        <h4 class="newClass">New Classes Here</h4>
+        <h4 id="newClass">New Classes Here</h4>
+        <div id="newClassTemp"></div>
     </div>
 
     <div id="del" class="delClassDiv">
-        <h4 class="newDelClass">Drag to Delete</h4>
+        <h4 id="newDelClass">Drag to Delete</h4>
+        <div id="delClassHere"></div>
     </div> 
 
     <div id="semHolder" class="semHolder"></div>
+
 </body>
 <script type="text/javascript" src="curriculum-map.js"></script>
 </html>

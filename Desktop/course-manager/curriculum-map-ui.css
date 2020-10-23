@@ -1,9 +1,14 @@
+html {
+    background-color: lightgray;
+}
+
 #welcomeDiv {
     float: center;
     width: 100%;
 
     border-color: black;
-    background-color: rgb(72, 150, 41);
+    background-color: whitesmoke;
+    
 
     border-style: solid;
     border-width: 2px;
@@ -13,10 +18,13 @@
     height: 60px;
     margin-bottom: 20px;
 }
+#welcomeTxt {
+    color: rgb(1, 151, 38);
+}
 
 .addObjDiv {
     border-color: black;
-    background-color: rgb(177, 173, 173);
+    background-color: whitesmoke;
 
     border-style: solid;
     border-width: 2px;
@@ -30,10 +38,11 @@
 }
 .settingsTxt {
     padding: 0px 0px 0px 20px;
+    color: rgb(1, 151, 38);
 }
 .addClassDiv {
-    border-color: green;
-    background-color: lightgreen;
+    border-color: black;
+    background-color: whitesmoke;
 
     border-style: solid;
     border-width: 2px;
@@ -44,14 +53,21 @@
 
     float: left;
     margin-right: 1%;
+
     
 }
-.newClass {
+#newClass {
     padding: 0px 0px 0px 20px;
+    color: rgb(1, 151, 38);
+}
+#newClassTemp {
+    border-style: solid;
+    margin: 0% 20% 20% 20%;
+    border-color: rgb(58, 241, 58);
 }
 .delClassDiv {
-    border-color: red;
-    background-color: lightcoral;
+    border-color: black;
+    background-color: whitesmoke;
 
     border-style: solid;
     border-width: 2px;
@@ -62,6 +78,14 @@
 
     float: left;
 }
-.newDelClass {
-    padding: 0px 0px 0px 20px;
+#delClassHere {
+    border-style: solid;
+    margin: 0% 20% 20% 20%;
+    border-color: rgb(233, 24, 24);
 }
+#newDelClass {
+    padding: 0px 0px 0px 20px;
+    color: rgb(1, 151, 38);
+}
+  
+  
